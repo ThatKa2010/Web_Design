@@ -1,0 +1,654 @@
+/*Start Category Page */
+
+.tb-sp {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
+.tb {
+  display: none;
+}
+
+.sp {
+  display: none;
+}
+
+.sec-slider {
+  margin-top: 180px;
+  position: relative;
+}
+
+.sec-slider img {
+  width: 100%;
+}
+
+.sec-slider .catmv-content {
+  position: absolute;
+  top: 48%;
+  left: 207px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.catmv-slider .slick-dots button {
+  z-index: 99;
+}
+
+.catmv-content {
+  margin-left: 50px;
+}
+
+.catmv-content h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.catmv-content p {
+  font-family: Gill Sans MT, sans-serif;
+  font-size: 16px;
+  /* font-weight: 700; */
+  line-height: 1.3;
+}
+
+.sec-solution .solution-text {
+  padding: 37px 0;
+  background: rgba(138, 91, 76, 1);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.solution-text h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  margin-bottom: 23px;
+  font-weight: 600;
+}
+
+.sec-solution .nav-solution {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 50px 0;
+  margin-bottom: 54px;
+}
+
+.sec-solution .nav-solution li {
+  text-align: center;
+  display: inline-block;
+  width: 212px;
+}
+
+.sec-acne .d-flex-row {
+  justify-content: initial;
+}
+
+.sec-acne .acent-category ul,
+.sec-acne .treatment-category ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.sec-acne .category-col {
+  padding: 13px 0 0 51px;
+  flex: 0 0 30%;
+}
+
+.sec-acne .product-col {
+  padding-left: 30px;
+  flex: 0 0 70%;
+}
+
+.sec-acne .product-col .product-ro1 .pd-26+.pd-26,
+.sec-acne .product-col .product-ro2 .pd-26+.pd-26 {
+  padding-left: 20px;
+}
+
+.sec-acne .product-col .product-ro2 .pd-18+.pd-18 {
+  padding-left: 18px;
+}
+
+.sec-acne .acent-category {
+  margin-bottom: 82px;
+}
+
+.sec-acne .category-col h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.sec-acne .category-col ul li {
+  padding: 15px 0;
+}
+
+.sec-acne .product-col img {
+  border: 3px solid rgba(138, 91, 76, 0.2);
+  border-radius: 5px;
+  margin-bottom: 23px;
+  display: block;
+}
+
+.sec-acne .product-ro1-col1 img {
+  margin-bottom: 27px;
+}
+
+.sec-acne .product-col h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+.sec-acne .product-col span {
+  float: right;
+}
+
+.sec-acne .product-ro1-col1 h4 {
+  /* margin: 0 0 15px 5px; */
+}
+
+.sec-acne .product-col p {
+  margin: 3px 0 13px 0;
+}
+
+.sec-acne .product-ro1-col1 p {
+  margin: 13px 0 27px 0;
+}
+
+.sec-acne .product-col a img {
+  border: none;
+  margin: 0;
+}
+
+.sec-acne .product-col a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid #8a5b4c;
+  border-radius: 7px;
+  padding: 4px 0;
+}
+
+.sec-acne .product-col a:hover {
+  background-color: #8a5b4c;
+}
+
+.sec-acne .product-col a:hover img {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(1736%) hue-rotate(153deg) brightness(118%) contrast(100%);
+}
+
+.sec-acne .product-ro1-col1 a {
+  border-radius: 7px;
+  padding: 7px 0;
+}
+
+.sec-acne .product-ro1-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sec-acne .product-ro1 {
+  margin-bottom: 41px;
+}
+
+.sec-acne .product-ro2 .item1 {
+  margin-bottom: 40px;
+}
+
+.sec-treatment {
+  margin-top: 57px;
+  background-color: rgba(244, 218, 204, 1);
+}
+
+.sec-treatment .text-blk {
+  padding: 171px 0 0 70px;
+}
+
+.sec-treatment .text-blk h1 {
+  font-family: Montserrat, sans-serif;
+  line-height: 0.8px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 33px;
+}
+
+.sec-treatment .text-blk p {
+  margin-bottom: 25px;
+}
+
+.sec-suncream {
+  margin: 103px 0 99px 0;
+}
+
+.sec-suncream h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  margin-bottom: 23px;
+}
+
+.sec-suncream .text-blk {
+  text-align: center;
+}
+
+.sec-suncream .img-blk {
+  margin-top: 98px;
+}
+
+.sec-suncream .img-blk>div {
+  justify-content: center;
+}
+
+.sec-suncream .first-row div+div {
+  margin-left: 100px;
+}
+
+.sec-suncream .second-row {
+  margin-right: 150px;
+}
+
+.sec-suncream .second-row .second-ro1 {
+  margin: 0 100px;
+}
+
+.sec-information {
+  margin: 0 auto;
+}
+
+.sec-information .d-flex-row {
+  justify-content: center;
+  /*changer initial to center and remove command above code */
+  text-align: center;
+  /* and add command to margin in this section  to move center*/
+  /* margin: 0 0 44px 382px; */
+}
+
+.sec-information div.info {
+  width: 220px;
+}
+
+.sec-information .info img {
+  margin-bottom: 15px;
+}
+
+.sec-information .info p {
+  margin-bottom: 10px;
+}
+
+.sec-information .info a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+
+  .container {
+    max-width: 86.979vw;
+  }
+
+  .tb-sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .tb {
+    display: block;
+  }
+
+  .sp {
+    display: none;
+  }
+
+  .sec-slider {
+    margin-top: 21.354vw;
+  }
+
+  .sec-slider .catmv-content {
+    position: absolute;
+    top: 22%;
+    left: 3.646vw;
+    z-index: 1;
+  }
+
+  .sec-slider img {
+    padding-top: 19.271vw;
+    height: 100%;
+  }
+
+  .catmv-content h1 {
+    margin-bottom: 1.693vw;
+  }
+
+  .sec-solution .nav-solution li {
+    text-align: center;
+    width: auto;
+  }
+
+  .sec-solution .nav-solution li+li {
+    margin-left: 7.031vw;
+  }
+
+  .sec-acne .category-col {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    padding: 1.693vw 1.823vw 0 2.474vw;
+  }
+
+  .sec-acne .product-ro1-col2 {
+    flex-direction: row;
+  }
+
+  .sec-acne .product-col {
+    padding: 0.521vw 0 0 0;
+    margin: 0 auto;
+  }
+
+  .sec-acne .product-col .product-ro2 .pd-18+.pd-18 {
+    padding-left: 0;
+  }
+
+  .sec-acne .product-col .product-ro1 .pd-26+.pd-26 {
+    padding: 0;
+  }
+
+  .sec-acne .product-col .product-ro2 .pd-18 {
+    padding-bottom: 2.604vw;
+  }
+
+  .sec-acne .product-col .product-ro1 .pd-26+.pd-26:not(.product-ro1-col1 + .product-ro1-col2),
+  .sec-acne .product-col .product-ro2 .pd-26+.pd-26 {
+    padding-left: 0;
+    padding-bottom: 5.208vw;
+  }
+
+  .sec-acne .product-col .product-ro1-col2>div,
+  .sec-acne .product-col .product-ro2 .pd-26 {
+    padding-left: 0;
+    padding-bottom: 5.208vw;
+  }
+
+  .product-col .product-ro1,
+  .sec-acne .product-ro2 .item1 {
+    margin: 0;
+  }
+
+  .product-ro1 .product-ro1-col1 {
+    padding-left: 0;
+    padding-bottom: 5.208vw;
+  }
+
+  .product-ro1 .product-ro1-col2 .item1+.item2 {
+    margin-left: 2.604vw;
+  }
+
+  .sec-acne .product-ro2 div.sp-pd {
+    margin-right: 2.604vw;
+  }
+
+  .sec-treatment {
+    margin-top: 7.943vw;
+  }
+
+  .sec-treatment .text-blk {
+    padding: 20.833vw 0 0 5.599vw;
+  }
+
+  .sec-treatment .text-blk h1 {
+    margin-bottom: 5.99vw;
+  }
+
+  .sec-treatment .text-blk p {
+    margin-bottom: 5.469vw;
+  }
+
+  .sec-treatment img {
+    width: 100%;
+    padding-top: 20.182vw;
+  }
+
+  .sec-suncream .img-blk>div {
+    justify-content: center;
+  }
+
+  .sec-suncream .second-row {
+    margin-right: 0;
+  }
+
+  .sec-suncream .first-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec-suncream .first-row div+div {
+    margin: 5.339vw 0 0 0;
+  }
+
+  .sec-suncream .second-row {
+    margin-top: 5.599vw;
+  }
+
+  .sec-suncream .second-row .second-ro1 {
+    margin-bottom: 5.339vw;
+  }
+
+  .sec-information .d-flex-row {
+    /* margin: 0 0 13.411vw 8.594vw; */
+  }
+
+  .subscribe .container .left {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 68px 0;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+
+  .container {
+    max-width: 85.938vw;
+  }
+
+  .tb-sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .tb {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .sec-slider {
+    margin: 22.188vw 0 0 0;
+  }
+
+  .sec-slider .catmv-content {
+    position: absolute;
+    top: 25%;
+    left: 2.344vw;
+    z-index: 1;
+  }
+
+  .sec-slider img {
+    padding-top: 23.125vw;
+    height: 100%;
+  }
+
+  .catmv-content h1 {
+    margin-bottom: 2.031vw;
+  }
+
+  .sec-solution {
+    margin-top: 1.563vw;
+  }
+
+  .sec-solution .nav-solution li {
+    text-align: center;
+    width: auto;
+  }
+
+  .sec-solution .nav-solution li+li {
+    margin-left: 8.438vw;
+  }
+
+  .sec-solution .nav-solution {
+    margin-bottom: 10.156vw;
+  }
+
+  .sec-acne .category-col {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    padding: 0 0 0 0;
+  }
+
+  .sec-acne .product-ro1-col2 {
+    flex-direction: row;
+  }
+
+  .sec-acne .product-col {
+    padding: 0.781vw 0 0 0;
+    margin: 0 auto;
+  }
+
+  .sec-acne .product-col .product-ro2 .pd-18+.pd-18 {
+    padding-left: 0;
+  }
+
+  .sec-acne .product-col .product-ro1 .pd-26+.pd-26 {
+    padding: 0;
+  }
+
+  .sec-acne .product-col .product-ro2 .pd-18 {
+    padding-bottom: 3.125vw;
+  }
+
+  .sec-acne .product-col .product-ro1 .pd-26+.pd-26:not(.product-ro1-col1 + .product-ro1-col2),
+  .sec-acne .product-col .product-ro2 .pd-26+.pd-26 {
+    padding-left: 0;
+    padding-bottom: 6.25vw;
+  }
+
+  .sec-acne .product-col .product-ro1-col2>div,
+  .sec-acne .product-col .product-ro2 .pd-26 {
+    padding-left: 0;
+    padding-bottom: 6.25vw;
+  }
+
+  .product-col .product-ro1,
+  .sec-acne .product-ro2 .item1 {
+    margin: 0;
+  }
+
+  .product-ro1 .product-ro1-col1 {
+    padding-left: 0;
+    padding-bottom: 6.25vw;
+  }
+
+  .product-ro1 .product-ro1-col2 .item1+.item2 {
+    margin-left: 3.125vw;
+  }
+
+  .sec-acne .product-ro2 div.sp-pd {
+    margin-right: 3.125vw;
+  }
+
+  .sec-treatment {
+    margin-top: 9.531vw;
+  }
+
+  .sec-treatment .text-blk {
+    padding: 24.219vw 0 0 7.656vw;
+  }
+
+  .sec-treatment .text-blk h1 {
+    margin-bottom: 7.188vw;
+  }
+
+  .sec-treatment .text-blk p {
+    margin-bottom: 7.344vw;
+  }
+
+  .btn2 {
+    padding: 1.719vw 4.375vw 1.875vw;
+  }
+
+  .sec-treatment img {
+    width: 100%;
+    padding-top: 24.219vw;
+  }
+
+  .sec-suncream {
+    margin: 16.094vw 0 14.844vw 0;
+  }
+
+  .sec-suncream .img-blk>div {
+    justify-content: center;
+  }
+
+  .sec-suncream .second-row {
+    margin-right: 0;
+  }
+
+  .sec-suncream .first-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec-suncream .first-row div+div {
+    margin: 6.406vw 0 0 0;
+  }
+
+  .sec-suncream .second-row {
+    margin-top: 6.719vw;
+  }
+
+  .sec-suncream .second-row .second-ro1 {
+    margin-bottom: 6.406vw;
+  }
+
+  .sec-information {
+    margin-bottom: 9.063vw;
+  }
+
+  .sec-information .d-flex-row {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .sec-information div.info {
+    margin: 0 auto;
+    padding-bottom: 7.656vw;
+  }
+
+  .subscribe .container .left {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 51px 0;
+  }
+}
+
+/*End Category Page*/
